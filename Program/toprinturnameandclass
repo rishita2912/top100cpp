@@ -1,0 +1,10 @@
+//To print your name and class
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   cout<<"My name is Rishita"<<endl;
+   cout<<"I am studying mtech";
+   return 0;
+}
