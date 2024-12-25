@@ -1,0 +1,15 @@
+//Write a c++ program to calculate the sum of 2 numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,sum;
+    cout<<"Enter your first number:";
+    cin>>x;
+    cout<<"Enter your second number:";
+    cin>>y;
+    sum = x+y;
+    cout<<"The sum of the 2 numbers is:"<<x+y;
+    return 0;
+    
+}
