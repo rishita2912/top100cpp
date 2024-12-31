@@ -1,0 +1,29 @@
+//Write a c++ program to accept students rollno, marks in 3 subjects calculate total,average and 
+//print it
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int roll1, roll2,roll3,m1,m2,m3,total;
+    float avg;
+    cout<<"Enter first student rollno:";
+    cin>>roll1;
+    cout<<"Enter first student marks:";
+    cin>>m1;
+    cout<<"Enter second student rollno:";
+    cin>>roll2;
+    cout<<"Enter second student marks:";
+    cin>>m2;
+    cout<<"Enter third student rollno:";
+    cin>>roll3;
+    cout<<"Enter third student marks:";
+    cin>>m3;
+    total = m1+m2+m3;
+    avg = float(total)/3;
+    cout<<"The total marks are:"<<total<<endl;
+    cout<<"The avg marks are:"<<avg;
+    return 0;
+    
+    
+}
