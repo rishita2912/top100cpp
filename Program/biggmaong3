@@ -1,0 +1,22 @@
+//Write a C++ program to read 3 numbers and print the biggest of three numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,big = 0;
+    cout<<"Enter first number:";
+    cin>>a;
+    cout<<"Enter second number:";
+    cin>>b;
+    cout<<"Enter third number:";
+    cin>>c;
+    if(a>big)
+    big = a;
+    if(b>big)
+    big = b;
+    if(c>big)
+    big = c;
+    cout<<"Biggest amog all numbers is:"<<big;
+    return 0;
+    
+}
